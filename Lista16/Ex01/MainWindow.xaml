@@ -1,0 +1,19 @@
+﻿<Window x:Class="Ex01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex01"
+        mc:Ignorable="d"
+        Title="Viagem" Height="250" Width="300">
+    <Grid>
+        <TextBlock Height="20" Width="100" HorizontalAlignment="Left" 
+        VerticalAlignment="Top" Text="Distancia - Km" Margin="10,10,0,0" />
+        
+        <TextBox Name="txtR" Height="20" Width="100" HorizontalAlignment="Left" 
+        VerticalAlignment="Top" Text="" Margin="10,30,0,0" />
+
+        <TextBlock Height="20" Width="100" HorizontalAlignment="Right"
+        VerticalAlignment="Top" Text="Tempo - h" Margin="10,10,0,0"/>
+    </Grid>
+</Window>
