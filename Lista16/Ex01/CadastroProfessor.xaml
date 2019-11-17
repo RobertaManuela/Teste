@@ -12,39 +12,39 @@
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left" 
               VerticalAlignment="Top" Text="Nome:" Margin="10,10,0,0" />
 
-                <TextBox Name="txtN" Height="20" Width="300" HorizontalAlignment="Left" 
+                <TextBox Name="txtName" Height="20" Width="300" HorizontalAlignment="Left" 
               VerticalAlignment="Top" Text="" Margin="50,10,0,0" />
 
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left"
               VerticalAlignment="Top" Text="Email:" Margin="10,40,0,0"/>
 
-                <TextBox Name="txtE" Height="20" Width="300" HorizontalAlignment="Left" 
+                <TextBox Name="txtEmail" Height="20" Width="300" HorizontalAlignment="Left" 
               VerticalAlignment="Top" Text="" Margin="50,40,0,0" />
 
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left"
               VerticalAlignment="Top" Text="Nascimento:" Margin="10,75,0,0"/>
 
-                <TextBox Name="txtNasci" Height="20" Width="80" HorizontalAlignment="Left" 
+                <TextBox Name="txtNas" Height="20" Width="80" HorizontalAlignment="Left" 
               VerticalAlignment="Top" Text="dd/mm/yyyy" Margin="80,76,0,0" />
 
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Right"
               VerticalAlignment="Top" Text="Formação:" Margin="0,75,71,0"/>
 
-                <TextBox Name="txtNivel" Height="20" Width="80" HorizontalAlignment="Right" 
-             VerticalAlignment="Top" Text="" Margin="0,75,30,0" TextChanged="TxtNivel_TextChanged" RenderTransformOrigin="-0.567,0.5" />
+                <TextBox Name="txtForm" Height="20" Width="80" HorizontalAlignment="Right" 
+             VerticalAlignment="Top" Text="" Margin="0,75,30,0"/>
 
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left"
             VerticalAlignment="Top" Margin="10,110,0,0" Text="Matricula:"/>
 
-                <TextBox Name="txtM" Height="20" Width="80" HorizontalAlignment="Right" 
+                <TextBox Name="txtMat" Height="20" Width="80" HorizontalAlignment="Right" 
              VerticalAlignment="Top" Text="" Margin="0,110,210,0" />
 
 
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left"
             VerticalAlignment="Top" Margin="200,110,0,0" Text="Senha:"/>
 
-                <TextBox Name="txtS" Height="20" Width="80" HorizontalAlignment="Right" 
-             VerticalAlignment="Top" Text="" Margin="0,110,30,0" TextChanged="TxtS_TextChanged" />
+                <TextBox Name="txtSenha" Height="20" Width="80" HorizontalAlignment="Right" 
+             VerticalAlignment="Top" Text="" Margin="0,110,30,0"  />
 
                 <Button Content="Inserir" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="75"/>
                 <Button Content="Listar" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" Width="75"/>
