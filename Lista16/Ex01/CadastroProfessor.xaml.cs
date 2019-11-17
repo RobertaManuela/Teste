@@ -10,29 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Ex01
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para CadastroProfessor.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CadastroProfessor : Window
     {
-        public MainWindow()
+        public CadastroProfessor()
         {
             InitializeComponent();
-        }
-
-        private void TxtS_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TxtNivel_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }
