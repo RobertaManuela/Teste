@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Administrador" Height="400" Width="410">
     <Grid>
-        <GroupBox Header="Cadastro Aluno" Margin="10,10,10,10">
+        <GroupBox Header="Cadastro Aluno" Margin="10,11,10,10">
             <Grid >
                 <TextBlock Height="20" Width="100" HorizontalAlignment="Left" 
               VerticalAlignment="Top" Text="Nome:" Margin="10,10,0,0" />
